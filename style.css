@@ -339,7 +339,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+    border: 0;
 }
 
 .navbar-toggle:hover {
@@ -537,7 +537,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -646,7 +646,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", serif;
     font-weight: 400;
     color: #575757;
 }
@@ -685,7 +685,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans"
+    font-family: "Open Sans", serif;
 }
 
 .cta-hero {
