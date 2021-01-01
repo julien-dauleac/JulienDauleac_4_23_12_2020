@@ -10,6 +10,7 @@ button {
     transition: all .3s ease-in-out;
     outline: none;
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
@@ -95,10 +96,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
@@ -129,7 +126,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -648,7 +645,6 @@ label,
 a {
     font-family: "helvetica", serif;
     font-weight: 400;
-    color: #575757;
 }
 
 .container {
@@ -656,7 +652,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 45px;
 }
 
 .hero-bloc-text-sub {
@@ -673,14 +669,11 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
     font-size: 19px;
+    color: black;
 }
 
 .h1 {
@@ -698,8 +691,9 @@ p {
 }
 
 .social {
-    max-width: 385px;
+    max-width: 480px;
     margin: auto auto auto auto;
+    font-size: 25px;
 }
 
 h2 {
@@ -709,10 +703,9 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: black;
+    color: #F3976C;
 }
 
 .med-width-whitespace {
@@ -817,7 +810,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 .et-icon-browser:before {
