@@ -46,7 +46,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/chouette.png" alt=""/></a>
+				<img class="navbar-brand" src="img/chouette.png" alt=""/>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
@@ -65,9 +65,9 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h5 class="text-center hero-bloc-text tc-white">
+				<h2 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
-				</h5>
+				</h2>
 				<p class="text-center mg-lg tc-white tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
@@ -85,27 +85,20 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<label for="name"></label><input id="name" class="form-control" required />
+						<label for="utilisateur">Nom</label>
+						<input type="text" id="utilisateur" name="Nom" class="form-control" />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<label for="email"></label><input id="email" class="form-control" type="email" required />
+						<label for="mail">Adresse email</label>
+						<input type="text" id="mail" name="email" class="form-control" />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<label for="input_504"></label><input class="form-control" type="email" required id="input_504" />
+						<label for="text">Comment ous avez-vous connu ?</label>
+						<input type="text" id="text" name="text" class="form-control" />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><label for="message"></label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -138,22 +131,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="Twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="Facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="Dribble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="Instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>

@@ -645,6 +645,7 @@ label,
 a {
     font-family: "helvetica", serif;
     font-weight: 400;
+    color: black;
 }
 
 .container {
@@ -683,7 +684,6 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -699,13 +699,13 @@ a {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
-    color: #F3976C;
+    color: black;
 }
 
 h3 {
     text-transform: uppercase;
     font-weight: 700;
-    color: #F3976C;
+    color: black;
 }
 
 .med-width-whitespace {
@@ -722,17 +722,19 @@ h4 {
     color: white;
 }
 
+p
+{
+    color: black;
+}
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .portfolio-row {
@@ -768,12 +770,10 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956;
-    color: #FFFFFF;
 }
 
 .ltc-white {
@@ -816,7 +816,6 @@ h4 {
 .et-icon-browser:before {
     content: "\e00c";
 }
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
