@@ -1021,6 +1021,9 @@ p
         padding-left: 0;
         padding-right: 0;
     }
+    .navbar-brand{
+        width: 325px;
+    }
 }
 
 @media (max-width: 767px) {
