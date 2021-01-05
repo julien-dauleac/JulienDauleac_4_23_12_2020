@@ -4240,10 +4240,6 @@ input[type=submit].btn-block {
     opacity: 1
 }
 
-.collapse {
-    display: none
-}
-
 .collapse.in {
     display: block
 }
@@ -5226,19 +5222,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-toggle .icon-bar+.icon-bar {
     margin-top: 4px
 }
-
-@media (min-width:768px) {
-    .navbar-toggle {
-        display: none
-    }
-}
-
 .navbar-nav {
     margin: 7px -15px;
 }
 
 .navbar-nav>li>a {
-    padding-top: 45px;
     padding-bottom: 10px;
     line-height: 20px;
 }
