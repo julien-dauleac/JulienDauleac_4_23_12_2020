@@ -291,6 +291,7 @@ a:hover {
     font-size: 25px;
     font-weight: normal;
     line-height: 44px;
+    width: auto;
 }
 
 .navbar-brand img {
