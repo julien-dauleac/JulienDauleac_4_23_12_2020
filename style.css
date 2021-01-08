@@ -794,10 +794,6 @@ p
     border-color: #364577;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.jpg");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.jpg");
 }
@@ -940,7 +936,6 @@ p
     }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
         box-shadow: none;
     }
     .navbar-brand img {
